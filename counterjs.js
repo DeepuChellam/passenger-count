@@ -26,13 +26,14 @@ function increment() {
 function save() {
    let value = count
    let separator = " - "
-   let kunju = value + separator
-   saveEl.textContent+= kunju
+   let kunku = value + separator
+   saveEl.textContent+= kunku
    countEl.textContent=0
    count=0
 
     console.log(count)
 }
+
 
 
 
